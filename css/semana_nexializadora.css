@@ -1,0 +1,807 @@
+.container-pq{
+    display: none;
+}
+
+body{
+    background-color: #180f49;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/Ativo8.png');
+    background-repeat: no-repeat;
+  }
+
+.titulo-evento{
+    margin-top: 150px;
+    width: 600px;
+    float: left;
+}
+
+.logo-nexi{
+    margin-top: 190px;
+    width: 200px;
+    float: right;
+}
+
+.vagas-limitadas{
+    margin-top: 130px;
+    width: 442px;
+}
+
+.card, .card-3{
+    margin-top: 150px;
+}
+
+
+.card-2{
+    margin-top: -60px;
+    
+}
+
+.endereco{
+    width: 205px;
+    margin-top: 60px;
+}
+
+.entrada-franca{
+    width: 207px;
+    margin-top: 60px;
+}
+
+.btn-inscreva{
+    display: block;
+    width: 100px;
+    margin: auto;
+    margin-left: -4px;
+}
+
+hr{
+    background-color: white;
+    height: .1px;
+}
+
+@media(max-width: 1025px){
+    .container{
+        display: none;
+    }
+
+    .container-pq{
+        display: block;
+        margin: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .titulo-evento{
+        margin-top: 100px;
+        width: 400px;
+        float: left;
+    }
+    
+    .logo-nexi{
+        margin-top: -45px;
+        width: 200px;
+        margin-right: 50px;
+    }
+    
+    .vagas-limitadas{
+        display: block;
+        width: 250px;
+        margin:auto;
+        margin-top: 30px;
+        
+    }
+
+    .card, .card-2, .card-3 {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: block;
+        margin: auto;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 110px;
+        word-wrap: break-word;
+        background-color: transparent;
+        background-clip: border-box;
+        border: 1px solid rgb(250, 245, 245);
+        border-radius: 0.25rem;
+      }
+
+      .card-2{
+        margin-top: 100px;
+        
+    }
+
+    .endereco{
+        display: block;
+        margin: auto;
+        margin-top: 0px;
+        width: 205px; 
+    }
+
+    .entrada-franca{
+        display: block;
+        margin: auto;
+        margin-top: 0px;
+        width: 205px; 
+    }
+      
+}
+
+@media(max-width: 813px){
+    .container{
+        display: none;
+    }
+
+    .container-pq{
+        display: block;
+        margin: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 0px;
+    }
+
+    .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+      }
+
+      .logo-nexi{
+        display: block;
+        width: 150px;
+        margin-right: 50px;
+        margin-top: -50px;
+    }
+
+    .vagas-limitadas{
+        display: block;
+        margin:auto;
+        width: 150px;
+        margin-top: 70px;
+    }
+
+    .endereco{
+        display: block;
+        margin: auto;
+        width: 150px;
+        margin-top: -60px;
+    }
+
+    .entrada-franca{
+        display: block;
+        margin: auto;
+        width: 150px;
+        margin-top: -60px;
+    }
+
+    }
+
+    @media(max-width: 769px){
+        .container{
+            display: none;
+        }
+    
+        .container-pq{
+            display: block;
+            margin: auto;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-top: 0px;
+        }
+    
+        .row {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: 0px;
+            margin-left: 0px;
+            margin-top: 0px;
+          }
+
+          .vagas-limitadas{
+            display: block;
+            margin:auto;
+            width: 150px;
+            margin-top: 50px;
+        }
+    
+        .endereco{
+            display: block;
+            margin: auto;
+            width: 150px;
+            margin-top: -60px;
+        }
+    
+        .entrada-franca{
+            display: block;
+            margin: auto;
+            width: 150px;
+            margin-top: -60px;
+        }
+    }
+    
+
+@media(max-width: 736px){
+    .container{
+        display: none;
+    }
+
+    .container-pq{
+        display: block;
+        margin: auto;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: 0px;
+    }
+
+    .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+      }
+
+      .titulo-evento{
+        margin: auto;
+        margin-top: 40px;
+        width: 300px;
+        display: block;
+        
+    }
+    
+    .logo-nexi{
+        display: block;
+        width: 130px;
+        margin-right: 0px;
+        margin-top: -30px;
+    }
+
+    .vagas-limitadas{
+        display: block;
+        margin:auto;
+        width: 150px;
+        margin-top: 40px;
+    }
+
+    .endereco{
+        display: block;
+        margin: auto;
+        width: 180px;
+        margin-top: -60px;
+    }
+
+    .entrada-franca{
+        display: block;
+        margin: auto;
+        width: 180px;
+        margin-left: 100px;
+        margin-top: -60px;
+    }
+}
+
+@media(max-width: 668px){
+    .container{
+        display: none;
+    }
+
+    .container-pq{
+        display: block;
+        margin: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 0px;
+    }
+
+    .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: 0px;
+      }
+
+      .card, .card-3{
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 100%;
+        word-wrap: break-word;
+        background-color: transparent;
+        background-clip: border-box;
+        border: 1px solid rgb(255, 247, 247);
+        border-radius: 0.25rem;
+        color: white;
+        font-size: .7rem;
+        margin-top: 20px;
+      }
+
+      .vagas-limitadas{
+        display: block;
+        margin:auto;
+        width: 150px;
+        margin-top: 40px;
+    }
+
+    .endereco{
+        display: block;
+        margin: auto;
+        width: 180px;
+        margin-top: -60px;
+    }
+
+    .entrada-franca{
+        display: block;
+        margin: auto;
+        width: 180px;
+        margin-left: 80px;
+        margin-top: -60px;
+    }
+}
+
+@media(max-width: 641px){
+    .container{
+        display: none;
+    }
+
+    .container-pq{
+        display: block;
+        margin: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 0px;
+    }
+
+    .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+      }
+
+      .card, .card-3{
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 100%;
+        word-wrap: break-word;
+        background-color: transparent;
+        background-clip: border-box;
+        border: 1px solid rgb(255, 247, 247);
+        border-radius: 0.25rem;
+        color: white;
+        font-size: .7rem;
+        margin-top: 20px;
+      }
+
+      .vagas-limitadas{
+        display: block;
+        margin:auto;
+        width: 150px;
+        margin-top: 60px;
+    }
+
+    .endereco{
+        display: block;
+        margin: auto;
+        width: 180px;
+        margin-top: -60px;
+    }
+
+    .entrada-franca{
+        display: block;
+        margin: auto;
+        width: 180px;
+        margin-left: 100px;
+        margin-top: -60px;
+    }
+}
+
+@media(max-width: 569px){
+    .container{
+        display: none;
+    }
+
+    .container-pq{
+        display: block;
+        margin: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 0px;
+    }
+
+    .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-top: 0px;
+      }
+
+      .card, .card-3{
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 100%;
+        word-wrap: break-word;
+        background-color: transparent;
+        background-clip: border-box;
+        border: 1px solid rgb(255, 247, 247);
+        border-radius: 0.25rem;
+        color: white;
+        font-size: .7rem;
+        margin-top: 20px;
+      }
+
+      .titulo-evento{
+        margin: auto;
+        margin-top: 40px;
+        width: 400px;
+        display: block;
+        
+    }
+
+    .logo-nexi{
+        display: block;
+        width: 130px;
+        margin-right: 150px;
+        margin-top: 30px;
+    }
+
+    .vagas-limitadas{
+        display: block;
+        margin:auto;
+        width: 80px;
+        margin-top: 40px;
+    }
+
+    .endereco{
+        display: block;
+        margin: auto;
+        width: 130px;
+        margin-top: -40px;
+    }
+
+    .entrada-franca{
+        display: block;
+        margin: auto;
+        width: 130px;
+        margin-top: -40px;
+    }
+}
+
+
+@media(max-width: 415px){
+    .container{
+        display: none;
+    }
+
+    .container-pq{
+        display: block;
+        margin: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 0px;
+    }
+
+    .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        margin-top: 0px;
+      }
+
+
+    .titulo-evento{
+        margin: auto;
+        margin-top: 40px;
+        width: 350px;
+        display: block;
+        
+    }
+    
+    .logo-nexi{
+        display: block;
+        width: 130px;
+        margin-right: 140px;
+        margin-top: 30px;
+    }
+    
+    .vagas-limitadas{
+        display: block;
+        margin:auto;
+        width: 200px;
+        margin-top: 230px;
+    }
+
+    .card-3{
+        margin-top: 30px;
+    }
+
+    .endereco{
+        display: block;
+        margin: auto;
+        width: 205px;
+        margin-top: 30px;
+    }
+
+    .entrada-franca{
+        display: block;
+        margin: auto;
+        width: 205px;
+        margin-top: 30px;
+    }
+
+    .card, .card-3{
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 100%;
+        word-wrap: break-word;
+        background-color: transparent;
+        background-clip: border-box;
+        border: 1px solid rgb(255, 247, 247);
+        border-radius: 0.25rem;
+        color: white;
+        font-size: .7rem;
+        margin-top: 20px;
+      }
+
+}
+
+@media(max-width: 376px){
+    .container{
+        display: none;
+    }
+
+    .container-pq{
+        display: block;
+        margin: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 0px;
+    }
+
+    .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: 10px;
+      }
+
+
+    .titulo-evento{
+        margin: auto;
+        margin-top: 40px;
+        width: 350px;
+        display: block;
+        
+    }
+    
+    .logo-nexi{
+        display: block;
+        width: 130px;
+        margin-right: 110px;
+        margin-top: 50px;
+    }
+    
+    .vagas-limitadas{
+        display: block;
+        margin:auto;
+        width: 200px;
+        margin-top: 180px;
+    }
+
+    .card-3{
+        margin-top: 30px;
+    }
+
+    .endereco{
+        display: block;
+        margin: auto;
+        width: 205px;
+        margin-top: 50px;
+    }
+
+    .entrada-franca{
+        display: block;
+        margin: auto;
+        width: 205px;
+        margin-top: 30px;
+    }
+
+    .card, .card-3{
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 100%;
+        word-wrap: break-word;
+        background-color: transparent;
+        background-clip: border-box;
+        border: 1px solid rgb(255, 247, 247);
+        border-radius: 0.25rem;
+        color: white;
+        font-size: .7rem;
+        margin-top: 20px;
+      }
+}
+
+
+@media(max-width: 360px){
+    .container{
+        display: none;
+    }
+
+    .container-pq{
+        display: block;
+        margin: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 10px;
+    }
+
+    .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        margin-top: 0px;
+      }
+
+
+    .titulo-evento{
+        display: block;
+        margin: auto;
+        margin-top: 40px;
+        margin-left: 30px;
+        width: 250px;
+        
+        
+    }
+    
+    .logo-nexi{
+        display: block;
+        width: 130px;
+        margin-right: 120px;
+        margin-top: 30px;
+    }
+
+    .card, .card-3{
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 100%;
+        word-wrap: break-word;
+        background-color: transparent;
+        background-clip: border-box;
+        border: 1px solid rgb(255, 247, 247);
+        border-radius: 0.25rem;
+        color: white;
+        font-size: .7rem;
+        margin-top: 20px;
+      }
+
+      .btn-inscreva{
+        display: block;
+        margin: auto;
+    }
+
+    .vagas-limitadas{
+        display: block;
+        margin:auto;
+        width: 200px;
+        margin-top: 230px;
+    }
+
+
+    .endereco{
+        display: block;
+        margin: auto;
+        width: 205px;
+        margin-top: 50px;
+    }
+
+    .entrada-franca{
+        display: block;
+        margin: auto;
+        width: 205px;
+        margin-top: 30px;
+    }
+}
+
+    @media(max-width: 320px){
+        .logo-nexi{
+            display: block;
+            width: 130px;
+            margin-right: 100px;
+            margin-top: 30px;
+        }
+
+        .vagas-limitadas{
+            display: block;
+            margin:auto;
+            width: 200px;
+            margin-top: 80px;
+        }
+
+        .endereco{
+            display: block;
+            margin: auto;
+            width: 205px;
+            margin-top: 30px;
+        }
+    
+        .entrada-franca{
+            display: block;
+            margin: auto;
+            width: 205px;
+            margin-top: 30px;
+        }
+}
